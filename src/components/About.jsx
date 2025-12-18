@@ -1,50 +1,44 @@
 const About = () => {
   return (
-    <section id="about" className="py-24 bg-gray-950 px-6">
+    <section id="about" className="py-24 px-6 bg-gray-950">
       <div className="max-w-6xl mx-auto">
-        
-        {/* Heading */}
         <h2 className="text-4xl font-extrabold mb-4">
           About <span className="text-blue-500">Me</span>
         </h2>
 
-        <p className="text-gray-400 mb-12 max-w-3xl">
-          I’m a Computer Science graduate student at the University of Cincinnati
-          with a strong focus on Artificial Intelligence, Data Engineering, and
-          Cloud technologies. I enjoy building scalable, real-world systems that
-          transform data into meaningful insights.
+        <p className="text-gray-400 max-w-3xl mb-8">
+          Computer Science graduate student at the University of Cincinnati with
+          hands-on experience in AI, Data Engineering, and Generative AI systems.
         </p>
 
-        {/* Cards */}
+        <div className="flex flex-wrap gap-4 text-sm text-gray-300 mb-12">
+          <span>⚡ Python</span>
+          <span>☁ Azure & AWS</span>
+          <span>🤖 GenAI & RAG</span>
+          <span>📊 Data Engineering</span>
+        </div>
+
         <div className="grid md:grid-cols-3 gap-6">
-          
           <div className="bg-gray-800 p-6 rounded-xl">
             <h3 className="font-semibold mb-2">What I Do</h3>
             <p className="text-gray-400 text-sm">
-              Design and build AI, Machine Learning, and GenAI applications,
-              including RAG systems, data pipelines, and cloud-deployed solutions
-              using Python, Azure, and AWS.
+              Build scalable AI, ML, and RAG-based applications deployed on cloud.
             </p>
           </div>
 
           <div className="bg-gray-800 p-6 rounded-xl">
-            <h3 className="font-semibold mb-2">Hands-On Experience</h3>
+            <h3 className="font-semibold mb-2">Experience</h3>
             <p className="text-gray-400 text-sm">
-              Gained industry experience through internships working with LLMs,
-              FAISS, TensorFlow, and real-world datasets, focusing on performance,
-              scalability, and usability.
+              Industry internships working with LLMs, FAISS, TensorFlow, and real datasets.
             </p>
           </div>
 
           <div className="bg-gray-800 p-6 rounded-xl">
-            <h3 className="font-semibold mb-2">What I’m Looking For</h3>
+            <h3 className="font-semibold mb-2">Career Goal</h3>
             <p className="text-gray-400 text-sm">
-              Actively seeking internship or entry-level roles in AI Engineering,
-              Data Engineering, or Software Development where I can contribute,
-              learn, and grow with innovative teams.
+              Seeking AI / Data Engineering roles to build impactful solutions.
             </p>
           </div>
-
         </div>
       </div>
     </section>
