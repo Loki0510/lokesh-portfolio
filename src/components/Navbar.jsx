@@ -1,14 +1,15 @@
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 w-full bg-gray-950/80 backdrop-blur border-b border-gray-800 z-50">
+    <nav className="fixed top-0 w-full bg-gray-950/90 backdrop-blur border-b border-gray-800 z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <span className="font-bold text-lg">Lokesh</span>
-
         <div className="flex gap-6 text-sm text-gray-400">
           <a href="#about" className="hover:text-white">About</a>
           <a href="#skills" className="hover:text-white">Skills</a>
           <a href="#projects" className="hover:text-white">Projects</a>
-          <a href="#contact" className="hover:text-white">Contact</a>
+          <a href="/Lokesh_Vinnakota_Resume.pdf" target="_blank" className="hover:text-white">
+            Resume
+          </a>
         </div>
       </div>
     </nav>
